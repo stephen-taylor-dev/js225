@@ -101,14 +101,14 @@
 // walkPeriod.format(); // => 'undefined hours and undefined minutes
 
 
-let myObject = {
-  count: 1,
-  myChildObject: {
-    myMethod() {
-      return this.count;
-    },
-  },
-};
+// let myObject = {
+//   count: 1,
+//   myChildObject: {
+//     myMethod() {
+//       return this.count;
+//     },
+//   },
+// };
 
-myObject.myChildObject.myMethod.call(myObject);
-myObject.myChildObject.myMethod.apply(myObject);
+// myObject.myChildObject.myMethod.call(myObject);
+// myObject.myChildObject.myMethod.apply(myObject);
