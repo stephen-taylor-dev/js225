@@ -625,10 +625,10 @@ function createSchool() {
       if (this.years.includes(year)) {
         student = createStudent(name, year)
         this.students.push(student);
+        return student
       } else {
         console.log('Invalid Year');
       }
-      return student
     },
 
     enrollStudent(student, course) {
@@ -661,7 +661,7 @@ function createSchool() {
           courseGrades.push(course.grade);
           console.log(`${student.name}: ${course.grade}`);
         } else {
-          
+
         }
       });
       console.log('---');
